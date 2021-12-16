@@ -4,47 +4,47 @@
 }
 
 
-h1 {
-    font-family: 'Spectral', serif;
-    font-style: italic;
-    font-weight:bold;   
-    text-align: center;
-    text-transform: capitalize;
-    color:$verde-RN
-}
+// h1 {
+//     font-family: $font-titulos-base;
+//     font-style: italic;
+//     font-weight:bold;   
+//     text-align: center;
+//     text-transform: capitalize;
+//     color:$verde-RN
+// }
 
-h2 {
-    font-family: 'Spectral', serif;
-    font-weight:bold;
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 250%;
-}
+// h2 {
+//     font-family: 'Spectral', serif;
+//     font-weight:bold;
+//     text-align: center;
+//     text-transform: capitalize;
+//     font-size: 250%;
+// }
 
-h3 {
-    font-family: 'Spectral', serif;
-    font-style: italic;    
-    line-height: 3.5;
-    color: $verde-Subtitulos;
-}
+// h3 {
+//     font-family: 'Spectral', serif;
+//     font-style: italic;    
+//     line-height: 3.5;
+//     color: $verde-Subtitulos;
+// }
 
-p {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
-}
+// p {
+//     font-family: 'Roboto', sans-serif;
+//     line-height: 1.5;
+// }
 
-.titulosSitio {
-    text-align: center;
+// .titulosSitio {
+//     text-align: center;
 
-    &__h1{
-        font-size: 80px;
-        padding-top: 70px;
-        color: black;
-    }
+//     &__h1{
+//         font-size: 80px;
+//         padding-top: 70px;
+//         color: black;
+//     }
 
-    &__h3{
-        text-align: center;
-        font-size: 25px;  
+//     &__h3{
+//         text-align: center;
+//         font-size: 25px;  
 
-    }
-}
+//     }
+// }
