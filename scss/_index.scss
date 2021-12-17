@@ -69,12 +69,26 @@
     border-radius: 10px;
     background-color: $rojo-RN;
 
+    &__imgContainer {
+        margin-left: 2.5em;
+        margin-top: 1.4em;
+        margin-bottom:1.4em;
+        background-color: white;
+    }
+
     &__imagen {
-        margin-left: 3.5em;
-        margin-top: 2em
+        margin-left: 2.5em;
+        margin-top: 1.4em;
+        border:solid 2px black
     }
 
     &__msj{
-        margin-left:7em;
+        border: solid 2px black;
+        background-color: rgb(0, 225, 255);         
+        height: 9.5em;
+        margin-top: 1.4em;
+        margin-right: 1em
+
     }
 }
+
