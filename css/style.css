@@ -11228,71 +11228,37 @@ textarea.form-control-lg {
   padding: 0;
 }
 
-.actividades {
-  display: flex;
-}
-.actividades__opcionesAct {
-  position: relative;
-  overflow: hidden;
-  margin: 75px 20px 10px 20px;
-  width: 90vw;
-  height: auto;
-  padding: 1rem;
-  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
-  border-radius: 20px;
-  font-style: bold;
-  color: white;
-}
-.actividades__overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  font-style: bold;
-  background: rgba(0, 0, 0, 0.7);
-  opacity: 0;
-}
-.actividades__overlay:hover {
-  opacity: 1;
-}
-.actividades__detallesActs {
-  position: absolute;
-  text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  transform: translate(-50%, -50%);
-}
-.actividades__detallesActs:hover {
-  top: 50%;
-  left: 50%;
-  opacity: 1;
+.actividadesTest, .actividadesTest--senderismo, .actividadesTest--bici, .actividadesTest--escalada {
+  border-radius: 15px;
+  background-color: whitesmoke;
+  border: solid 2px white;
+  border-bottom-width: 12px;
+  max-width: 100%;
+  border-radius: 6px;
 }
 
-.reservaciones {
-  display: flex;
+.actividadesTest--escalada {
+  border-bottom-color: #fa6060;
 }
-.reservaciones__detalles {
-  margin: 10px 20px 10px 20px;
-  width: 90vw;
-  height: auto;
-  padding: 0.5rem;
-  border-radius: 10px;
-  background: rgba(165, 42, 42, 0.493);
-  color: black;
+
+.actividadesTest--bici {
+  border-bottom-color: #ffb429;
 }
-.reservaciones__boton {
-  background-color: royalblue;
-  border-radius: 5px;
-  padding: 10px;
-  border: 1px solid burlywood;
-  font: 700 13px/18px Helvetica, arial;
+
+.actividadesTest--senderismo {
+  border-bottom-color: #7dfde8;
 }
-.reservaciones__boton:hover {
-  background-color: royalblue;
-  font-size: 2rem;
+
+.infoActividad {
+  background-color: black;
+  color: white;
+  padding-left: 1em;
+  opacity: 0;
+}
+.infoActividad:hover {
+  translate: 0 -105%;
+  transition: 1s;
+  opacity: 1;
 }
 
 * {

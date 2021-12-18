@@ -3,83 +3,119 @@
     padding: 0;    
 }
 
-.actividades {
-    display:flex;
-
-    &__opcionesAct {
-        position:relative;
-        overflow: hidden;
-        margin: 75px 20px 10px 20px;
-        width: 90vw;
-        height: auto;
-        padding: 1rem;
-        box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
-        border-radius: 20px;
-        font-style: bold;    
-        color: white;      
-    }      
-
-    &__overlay{
-        position:absolute;
-        height: 100%;
-        width: 100%;   
-        font-style: bold;
-        background: rgba(0,0,0,0.7);
-        opacity:0;
-
-        &:hover {
-            opacity:1;
-        }
-    }
-
-    &__detallesActs{
-        position: absolute;
-        text-align: center;
-        padding-left: 5%;
-        padding-right: 5%;
-        width: 100%;
-        top: 50%;
-        left: 50%;
-        opacity: 0;
-        transform: translate(-50%, -50%);
-
-        &:hover {
-            top: 50%;
-            left: 50%;
-            opacity:1;
-
-        }
+.actividadesTest {
+    border-radius: 15px;
+    background-color:whitesmoke;
+    border: solid 2px white;
+    border-bottom-width: 12px;  
+    max-width: 100%;
+    border-radius: 6px;
     
+}
+
+.actividadesTest--escalada {
+    @extend .actividadesTest;
+    border-bottom-color:$rojo-RN; 
+}
+.actividadesTest--bici {
+    @extend .actividadesTest;
+    border-bottom-color: rgb(255, 180, 41); 
+}
+.actividadesTest--senderismo {
+    @extend .actividadesTest;
+    border-bottom-color: $verde-RN 
+}
+
+.infoActividad {
+    background-color: black;
+    color: white;
+    padding-left:1em;
+    opacity: 0;         
+
+    &:hover {
+        translate: 0 -105%;
+        transition: 1s;
+        opacity:1
     }
 }
 
+// .actividades {
+//     display:flex;
 
+//     &__opcionesAct {
+//         position:relative;
+//         overflow: hidden;
+//         margin: 75px 20px 10px 20px;
+//         width: 90vw;
+//         height: auto;
+//         padding: 1rem;
+//         box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+//         border-radius: 20px;
+//         font-style: bold;    
+//         color: white;      
+//     }      
 
-.reservaciones {
-    display: flex; 
+//     &__overlay{
+//         position:absolute;
+//         height: 100%;
+//         width: 100%;   
+//         font-style: bold;
+//         background: rgba(0,0,0,0.7);
+//         opacity:0;
+
+//         &:hover {
+//             opacity:1;
+//         }
+//     }
+
+//     &__detallesActs{
+//         position: absolute;
+//         text-align: center;
+//         padding-left: 5%;
+//         padding-right: 5%;
+//         width: 100%;
+//         top: 50%;
+//         left: 50%;
+//         opacity: 0;
+//         transform: translate(-50%, -50%);
+
+//         &:hover {
+//             top: 50%;
+//             left: 50%;
+//             opacity:1;
+
+//         }
     
-    &__detalles {    
-        margin: 10px 20px 10px 20px;   
-        width: 90vw;
-        height: auto;
-        padding: 0.5rem;
-        border-radius: 10px;
-        background: $caja-roja;
-        color: black;
-    }
+//     }
+// }
 
-    &__boton {
-        background-color: $button-royalB;
-        border-radius: 5px;
-        padding: 10px;
-        border: 1px solid burlywood;   
-        font: 700 13px/18px Helvetica, arial;
+
+
+// .reservaciones {
+//     display: flex; 
     
-        &:hover {
-            background-color: $button-royalB;
-            font-size: $agrandarCallout-font;
-        }
-    }
+//     &__detalles {    
+//         margin: 10px 20px 10px 20px;   
+//         width: 90vw;
+//         height: auto;
+//         padding: 0.5rem;
+//         border-radius: 10px;
+//         background: $caja-roja;
+//         color: black;
+//     }
 
-}
+//     &__boton {
+//         background-color: $button-royalB;
+//         border-radius: 5px;
+//         padding: 10px;
+//         border: 1px solid burlywood;   
+//         font: 700 13px/18px Helvetica, arial;
+    
+//         &:hover {
+//             background-color: $button-royalB;
+//             font-size: $agrandarCallout-font;
+//         }
+//     }
+
+// }
 
