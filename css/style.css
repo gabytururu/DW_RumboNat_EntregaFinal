@@ -11232,9 +11232,22 @@ textarea.form-control-lg {
   border-radius: 15px;
   background-color: whitesmoke;
   border: solid 2px white;
-  border-bottom-width: 12px;
+  border-bottom-width: 10px;
   max-width: 100%;
   border-radius: 6px;
+}
+.actividadesTest:hover ~ .infoActividad, .actividadesTest--senderismo:hover ~ .infoActividad, .actividadesTest--bici:hover ~ .infoActividad, .actividadesTest--escalada:hover ~ .infoActividad {
+  translate: 0 -103%;
+  transition: 1.2s;
+  opacity: 0.8;
+}
+
+.infoActividad {
+  background-color: black;
+  color: white;
+  padding-left: 1em;
+  opacity: 0;
+  padding: 2em;
 }
 
 .actividadesTest--escalada {
@@ -11247,18 +11260,6 @@ textarea.form-control-lg {
 
 .actividadesTest--senderismo {
   border-bottom-color: #7dfde8;
-}
-
-.infoActividad {
-  background-color: black;
-  color: white;
-  padding-left: 1em;
-  opacity: 0;
-}
-.infoActividad:hover {
-  translate: 0 -105%;
-  transition: 1s;
-  opacity: 1;
 }
 
 * {

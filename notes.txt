@@ -24,3 +24,16 @@ icono news letter 2 colors
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 icono newsletter email 3 bannerContent<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+
+referencia de páginas / transiciones 
+
+https://codepen.io/YaroslavW/embed/WZQEza?height=316&theme-id=0&default-tab=result#css-box
+
+https://codepen.io/Gelsot/embed/xpGYyd?height=316&theme-id=0&default-tab=result#css-box
+
+hiking 
+https://unsplash.com/photos/y7g77tIlFv4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+
+nevado toluca
+https://unsplash.com/photos/DATL99B8pao?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
