@@ -36,4 +36,9 @@ hiking
 https://unsplash.com/photos/y7g77tIlFv4?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 
 nevado toluca
-https://unsplash.com/photos/DATL99B8pao?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
+https://unsplash.com/photos/DATL99B8pao?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink}
+
+
+pags recomendaciones para centrar scaled up merch:
+https://stackoverflow.com/questions/39172022/center-div-on-screen-that-has-been-rotated-and-scaled-with-css3
+https://stackoverflow.com/questions/9862167/positioning-div-element-at-center-of-screen/25416403

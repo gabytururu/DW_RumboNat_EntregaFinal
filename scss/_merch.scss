@@ -6,8 +6,85 @@
 
 // Elaborado con Bootstrap
 
-.boton{
-    background-color: $button-royalB;
-    border-radius: 5px;
-    padding: 10px;
+.card {
+    margin: 2%;
+    // border: solid 2px grey;
+    
 }
+
+
+@mixin imagenProd($translateX, $translateY) {
+    height: 20vw;
+    width:80%;
+    margin:45px 30px 15px 40px;
+    border-radius: 10px;
+    // border: solid 2px black;
+
+    &:hover {
+        transform: scale(2.5);
+        translate: $translateX $translateY;
+        transition: 2s;
+        z-index: 9999
+    } 
+}
+
+.prod1 {
+    @include imagenProd(105%, 0%)
+}
+
+.prod2{
+    @include imagenProd(0, -95%)
+}
+.prod3{
+    @include imagenProd(0, -95%)
+}
+.prod4{
+    @include imagenProd(0, -95%)
+}
+.prod5{
+    @include imagenProd(0, -95%)
+}
+.prod6{
+    @include imagenProd(0, -95%)
+}
+.prod7{
+    @include imagenProd(0, -95%)
+}
+.prod8{
+    @include imagenProd(0, -95%)
+}
+.prod9{
+    @include imagenProd(0, -95%)
+}
+.prod10{
+    @include imagenProd(0, -95%)
+}
+.prod11{
+    @include imagenProd(0, -95%)
+}
+
+.card-body {
+    background-color: beige;
+}
+    
+
+
+.titulo{
+        color: rgb(0, 102, 255);
+        font-weight: 600;
+        font-style: $font-titulos-cursiva;
+        font-size: 1.8em
+
+    }
+
+.boton {
+    background-color:rgb(255, 72, 0);
+    border-radius: 8px;
+    padding: 10px;
+    color: white
+}
+
+
+    
+
+
