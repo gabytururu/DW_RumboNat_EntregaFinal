@@ -11129,6 +11129,22 @@ textarea.form-control-lg {
   padding: 0;
 }
 
+.titulosSitio {
+  text-align: center;
+}
+.titulosSitio__h1 {
+  font-size: 80px;
+  padding-top: 1.5em;
+  color: black;
+  font-family: "Meow Script", cursive;
+  font-style: italic;
+}
+.titulosSitio__h3 {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 1.5em;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11141,8 +11157,8 @@ textarea.form-control-lg {
 
 .footerGrad {
   text-align: center;
-  padding: 8px 0px 25px 0px;
-  background-image: linear-gradient(to right, brown, rgba(165, 42, 42, 0.1));
+  padding: 8px 0px 10px 0px;
+  background-image: linear-gradient(to right, #2aa787, rgba(165, 42, 42, 0.1));
 }
 .footerGrad__piePagP {
   padding: 1px;
@@ -11266,6 +11282,10 @@ textarea.form-control-lg {
   border-bottom-color: #7dfde8;
 }
 
+.botonM {
+  z-index: 9999;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11294,7 +11314,7 @@ textarea.form-control-lg {
 .galeriaImg__foto2 {
   grid-area: foto2;
   border: solid 2px black;
-  background-image: url("../imagenes/chontaNinaCap.jpg");
+  background-image: url("../imagenes/carrouse4.jpg");
   text-align: center;
   font-size: 18px;
   color: white;

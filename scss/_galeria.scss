@@ -24,6 +24,9 @@
             background-image:url("../imagenes/escalada_resized.png");
             text-align: center;           
             font-size: 18px;
+            // max-width: 100%;
+            // max-height:100%; 
+            // object-fit: cover;
             color: white;  
            
             &:hover {                            
@@ -34,10 +37,13 @@
         &__foto2 {
             grid-area: foto2;
             border: solid 2px black;
-            background-image:url("../imagenes/chontaNinaCap.jpg");
+            background-image:url("../imagenes/carrouse4.jpg");
             text-align: center;
             font-size: 18px;
-            color: white;    
+            color: white;   
+            // max-width: 100%;
+            // max-height:100%; 
+            // object-fit: cover;
             &:hover {                            
                 opacity: 0.2;
             }        
