@@ -11531,7 +11531,7 @@ textarea.form-control-lg {
 }
 
 .card-body {
-  background-color: beige;
+  background-color: rgba(155, 205, 247, 0.349);
 }
 
 .titulo {
@@ -11542,10 +11542,13 @@ textarea.form-control-lg {
 }
 
 .boton {
-  background-color: #ff4800;
+  background-color: #0066ff;
   border-radius: 8px;
   padding: 10px;
   color: white;
+}
+.boton:hover {
+  background-color: #0151ca;
 }
 
 * {
