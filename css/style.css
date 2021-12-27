@@ -11228,6 +11228,10 @@ textarea.form-control-lg {
   padding: 0;
 }
 
+.contenedorActs {
+  min-width: 800px;
+}
+
 .actividadesTest, .actividadesTest--senderismo, .actividadesTest--bici, .actividadesTest--escalada {
   border-radius: 15px;
   background-color: whitesmoke;
