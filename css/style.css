@@ -11312,122 +11312,434 @@ textarea.form-control-lg {
 }
 
 .galeriaImg {
-  background-color: rgba(0, 0, 0, 0.288);
+  background-color: #faf4ea;
   display: grid;
   grid-template-columns: repeat 30% auto 30%;
-  grid-template-rows: 250px 250px 250px 250px 400px;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  grid-template-areas: "foto1 foto2 foto2" "foto3 foto2 foto2" "foto4 foto4 foto5" "foto4 foto4 foto6" "foto7 foto8 foto9";
-  padding: 80px 20px 80px 20px;
+  grid-template-rows: 250px 250px 250px 250px 250px 250px 250px 250px 250px 250px;
+  grid-column-gap: 8px;
+  grid-row-gap: 0px;
+  grid-template-areas: "foto1 foto2 foto2" "foto3 foto2 foto2" "foto4 foto4 foto5" "foto4 foto4 foto6" "foto7 foto8 foto9" "foto10 foto10 foto11" "foto10 foto10 foto12" "foto13 foto14 foto15" "foto16 foto17 foto17" "foto18 foto19 foto20";
+  padding: 25px 20px 25px 20px;
 }
 .galeriaImg__foto1 {
   grid-area: foto1;
-  background-image: url("../imagenes/escalada_resized.png");
-  text-align: center;
-  font-size: 18px;
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-  color: white;
-  border-bottom-color: green;
-  border-bottom-width: 12px;
-}
-.galeriaImg__foto1:hover {
-  opacity: 0.2;
-}
-.galeriaImg__foto2 {
-  grid-area: foto2;
-  background-image: url("../imagenes/carrouse4.jpg");
+  background-image: url("../imagenes/GaleriaSmall/biciTour_(4)_reduced.jpg");
   text-align: center;
   font-size: 18px;
   color: white;
   max-width: 100%;
   height: auto;
   border: solid 0px;
-  border-bottom-color: green;
+  background-size: cover;
+  border-bottom-color: #fa6060;
   border-bottom-width: 10px;
+  opacity: 0.8;
+}
+.galeriaImg__foto1:hover {
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
+}
+.galeriaImg__foto2 {
+  grid-area: foto2;
+  background-image: url("../imagenes/GaleriaSmall/senderismo_(4)_reduced.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #ffb429;
+  border-bottom-width: 10px;
+  opacity: 0.8;
 }
 .galeriaImg__foto2:hover {
-  opacity: 0.2;
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
 }
 .galeriaImg__foto3 {
   grid-area: foto3;
-  background-image: url("../imagenes/mbike_resized.png");
+  background-image: url("../imagenes/GaleriaSmall/escalada_(5)_reduced.jpg");
   text-align: center;
   font-size: 18px;
   color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #7dfde8;
+  border-bottom-width: 10px;
+  opacity: 0.8;
 }
 .galeriaImg__foto3:hover {
-  opacity: 0.2;
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
 }
 .galeriaImg__foto4 {
   grid-area: foto4;
-  border: solid 2px black;
-  background-image: url("../imagenes/SE_TlayacapanMOR.jpg");
+  background-image: url("../imagenes/GaleriaSmall/senderismo_(5)_reduced.jpg");
   text-align: center;
   font-size: 18px;
   color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: rgba(0, 140, 255, 0.986);
+  border-bottom-width: 10px;
+  opacity: 0.8;
 }
 .galeriaImg__foto4:hover {
-  opacity: 0.2;
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
 }
 .galeriaImg__foto5 {
   grid-area: foto5;
-  border: solid 2px black;
-  background-image: url("../imagenes/portFondo.png");
+  background-image: url("../imagenes/GaleriaSmall/biciTour_(5)_reduced.jpg");
   text-align: center;
   font-size: 18px;
   color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #b600b6;
+  border-bottom-width: 10px;
+  opacity: 0.8;
 }
 .galeriaImg__foto5:hover {
-  opacity: 0.2;
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
 }
 .galeriaImg__foto6 {
   grid-area: foto6;
-  border: solid 2px black;
-  background-image: url("../imagenes/ES_LosDinamosCDMX.jpg");
+  background-image: url("../imagenes/GaleriaSmall/escalada_(6)_reduced.jpg");
   text-align: center;
   font-size: 18px;
   color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #17a809;
+  border-bottom-width: 10px;
+  opacity: 0.8;
 }
 .galeriaImg__foto6:hover {
-  opacity: 0.2;
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
 }
 .galeriaImg__foto7 {
   grid-area: foto7;
-  border: solid 2px black;
-  background-image: url("../imagenes/tlayacapanPaisaje.png");
+  background-image: url("../imagenes/GaleriaSmall/biciTour_(6)_reduced.jpg");
   text-align: center;
   font-size: 18px;
   color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #fa6060;
+  border-bottom-width: 10px;
+  opacity: 0.8;
 }
 .galeriaImg__foto7:hover {
-  opacity: 0.2;
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
 }
 .galeriaImg__foto8 {
   grid-area: foto8;
-  border: solid 2px black;
-  background-image: url("../imagenes/portFondo.png");
-  text-align: center;
-  justify-items: center;
+  background-image: url("../imagenes/GaleriaSmall/senderismo_(6)_reduced.jpg");
   text-align: center;
   font-size: 18px;
   color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #7dfde8;
+  border-bottom-width: 10px;
+  opacity: 0.8;
 }
 .galeriaImg__foto8:hover {
-  opacity: 0.2;
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
 }
 .galeriaImg__foto9 {
   grid-area: foto9;
-  border: solid 2px black;
-  background-image: url("../imagenes/portFondo.png");
+  background-image: url("../imagenes/GaleriaSmall/escalada_(7)_reduced.jpg");
   text-align: center;
   font-size: 18px;
   color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #ffb429;
+  border-bottom-width: 10px;
+  opacity: 0.8;
 }
 .galeriaImg__foto9:hover {
-  opacity: 0.2;
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
+}
+.galeriaImg__foto10 {
+  grid-area: foto10;
+  background-image: url("../imagenes/GaleriaSmall/biciTour_(7)_reduced.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: rgba(0, 140, 255, 0.986);
+  border-bottom-width: 10px;
+  opacity: 0.8;
+}
+.galeriaImg__foto10:hover {
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
+}
+.galeriaImg__foto11 {
+  grid-area: foto11;
+  background-image: url("../imagenes/GaleriaSmall/senderismo_(7)_reduced.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #b600b6;
+  border-bottom-width: 10px;
+  opacity: 0.8;
+}
+.galeriaImg__foto11:hover {
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
+}
+.galeriaImg__foto12 {
+  grid-area: foto12;
+  background-image: url("../imagenes/GaleriaSmall/escalada_(8)_reduced.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #17a809;
+  border-bottom-width: 10px;
+  opacity: 0.8;
+}
+.galeriaImg__foto12:hover {
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
+}
+.galeriaImg__foto13 {
+  grid-area: foto13;
+  background-image: url("../imagenes/GaleriaSmall/biciTour_(8)_reduced.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #fa6060;
+  border-bottom-width: 10px;
+  opacity: 0.8;
+}
+.galeriaImg__foto13:hover {
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
+}
+.galeriaImg__foto14 {
+  grid-area: foto14;
+  background-image: url("../imagenes/GaleriaSmall/senderismo_(8)_reduced.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #7dfde8;
+  border-bottom-width: 10px;
+  opacity: 0.8;
+}
+.galeriaImg__foto14:hover {
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
+}
+.galeriaImg__foto15 {
+  grid-area: foto15;
+  background-image: url("../imagenes/GaleriaSmall/escalada_(9)_reduced.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #ffb429;
+  border-bottom-width: 10px;
+  opacity: 0.8;
+}
+.galeriaImg__foto15:hover {
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
+}
+.galeriaImg__foto16 {
+  grid-area: foto16;
+  background-image: url("../imagenes/GaleriaSmall/biciTour_(9)_reduced.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: rgba(0, 140, 255, 0.986);
+  border-bottom-width: 10px;
+  opacity: 0.8;
+}
+.galeriaImg__foto16:hover {
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
+}
+.galeriaImg__foto17 {
+  grid-area: foto17;
+  background-image: url("../imagenes/GaleriaSmall/senderismo_(9)_reduced.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #b600b6;
+  border-bottom-width: 10px;
+  opacity: 0.8;
+}
+.galeriaImg__foto17:hover {
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
+}
+.galeriaImg__foto18 {
+  grid-area: foto18;
+  background-image: url("../imagenes/GaleriaSmall/escalada_(1)_reduced.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #17a809;
+  border-bottom-width: 10px;
+  opacity: 0.8;
+}
+.galeriaImg__foto18:hover {
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
+}
+.galeriaImg__foto19 {
+  grid-area: foto19;
+  background-image: url("../imagenes/GaleriaSmall/biciTour_(10)_reduced.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #fa6060;
+  border-bottom-width: 10px;
+  opacity: 0.8;
+}
+.galeriaImg__foto19:hover {
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
+}
+.galeriaImg__foto20 {
+  grid-area: foto20;
+  background-image: url("../imagenes/GaleriaSmall/senderismo_(10)_reduced.jpg");
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  border: solid 0px;
+  border-bottom-color: #ffb429;
+  border-bottom-width: 10px;
+  opacity: 0.8;
+}
+.galeriaImg__foto20:hover {
+  border-radius: 5px;
+  z-index: 9999;
+  opacity: 1;
+  scale: 1.05;
+  transition: all 1s ease;
 }
 
 * {
