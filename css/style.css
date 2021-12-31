@@ -11286,6 +11286,24 @@ textarea.form-control-lg {
   z-index: 9999;
 }
 
+.titleEsc {
+  background-color: #fa6060;
+  border-radius: 6px;
+  padding: 3.5px;
+}
+
+.titleBici {
+  background-color: #ffb429;
+  border-radius: 6px;
+  padding: 3.5px;
+}
+
+.titleSen {
+  background-color: #7dfde8;
+  border-radius: 6px;
+  padding: 3.5px;
+}
+
 * {
   margin: 0;
   padding: 0;

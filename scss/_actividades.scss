@@ -14,11 +14,13 @@
     border-bottom-width: 10px;  
     max-width: 100%;
     border-radius: 6px;
+    
 
     &:hover ~ .infoActividad{               
         translate: 0 -103%;
         transition: 1.2s;
         opacity:0.8;
+        
     }
 }
 
@@ -27,7 +29,8 @@
     color: white;
     padding-left:1em;
     opacity: 0;  
-    padding: 2em;     
+    padding: 2em;   
+    
 }
 
 .actividadesTest--escalada {
@@ -36,7 +39,7 @@
 }
 .actividadesTest--bici {
     @extend .actividadesTest;
-    border-bottom-color: rgb(255, 180, 41); 
+    border-bottom-color: $amarillo-RN 
 }
 .actividadesTest--senderismo {
     @extend .actividadesTest;
@@ -47,3 +50,26 @@
     z-index: 9999;
     
 }
+
+@mixin titleActs ($colorBck) {
+    background-color: $colorBck;
+    border-radius: 6px;
+    padding: 3.5px;       
+}
+
+.titleEsc {
+    @include titleActs ($rojo-RN)
+}
+
+.titleBici {
+    @include titleActs ($amarillo-RN)
+}
+
+.titleSen {
+    @include titleActs ($verde-RN)
+}
+
+// .masInfo {
+//     position: absolute;
+//     z-index: 9999
+// }
