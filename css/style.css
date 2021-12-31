@@ -11158,7 +11158,8 @@ textarea.form-control-lg {
 .footerGrad {
   text-align: center;
   padding: 8px 0px 10px 0px;
-  background-image: linear-gradient(to right, #2aa787, rgba(165, 42, 42, 0.1));
+  color: white;
+  background-color: rgba(0, 0, 0, 0.884);
 }
 .footerGrad__piePagP {
   padding: 1px;
