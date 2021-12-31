@@ -11260,6 +11260,7 @@ textarea.form-control-lg {
   translate: 0 -103%;
   transition: 1.2s;
   opacity: 0.8;
+  display: block;
 }
 
 .infoActividad {
@@ -11267,6 +11268,7 @@ textarea.form-control-lg {
   color: white;
   padding-left: 1em;
   opacity: 0;
+  display: none;
   padding: 2em;
 }
 
@@ -11310,6 +11312,7 @@ textarea.form-control-lg {
 }
 
 .galeriaImg {
+  background-color: rgba(0, 0, 0, 0.288);
   display: grid;
   grid-template-columns: repeat 30% auto 30%;
   grid-template-rows: 250px 250px 250px 250px 400px;
@@ -11320,29 +11323,36 @@ textarea.form-control-lg {
 }
 .galeriaImg__foto1 {
   grid-area: foto1;
-  border: solid 2px black;
   background-image: url("../imagenes/escalada_resized.png");
   text-align: center;
   font-size: 18px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
   color: white;
+  border-bottom-color: green;
+  border-bottom-width: 12px;
 }
 .galeriaImg__foto1:hover {
   opacity: 0.2;
 }
 .galeriaImg__foto2 {
   grid-area: foto2;
-  border: solid 2px black;
   background-image: url("../imagenes/carrouse4.jpg");
   text-align: center;
   font-size: 18px;
   color: white;
+  max-width: 100%;
+  height: auto;
+  border: solid 0px;
+  border-bottom-color: green;
+  border-bottom-width: 10px;
 }
 .galeriaImg__foto2:hover {
   opacity: 0.2;
 }
 .galeriaImg__foto3 {
   grid-area: foto3;
-  border: solid 2px black;
   background-image: url("../imagenes/mbike_resized.png");
   text-align: center;
   font-size: 18px;

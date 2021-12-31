@@ -20,6 +20,7 @@
         translate: 0 -103%;
         transition: 1.2s;
         opacity:0.8;
+        display: block;
         
     }
 }
@@ -29,6 +30,7 @@
     color: white;
     padding-left:1em;
     opacity: 0;  
+    display: none;
     padding: 2em;   
     
 }
