@@ -4,35 +4,28 @@
 }
 
 
-// h1 {
-//     font-family: $font-titulos-base;
-//     font-style: italic;
-//     font-weight:bold;   
-//     text-align: center;
-//     text-transform: capitalize;
-//     color:$verde-RN
-// }
+// --------------- Header --------------- // 
 
-// h2 {
-//     font-family: 'Spectral', serif;
-//     font-weight:bold;
-//     text-align: center;
-//     text-transform: capitalize;
-//     font-size: 250%;
-// }
+.navbar {
+    opacity: 1;
+    color: white
+}
 
-// h3 {
-//     font-family: 'Spectral', serif;
-//     font-style: italic;    
-//     line-height: 3.5;
-//     color: $verde-Subtitulos;
-// }
+// --------------- Footer --------------- //
 
-// p {
-//     font-family: 'Roboto', sans-serif;
-//     line-height: 1.5;
-// }
+.footerGrad {
+    text-align: center;
+    padding: 8px 0px 10px 0px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.884);   
+    
+    &__piePagP {
+        padding: 1px;
+        margin-top: 10px;
+    }
+}
 
+// --------------- Titulos --------------- //
 .titulosSitio {
     text-align: center;
 
@@ -50,4 +43,11 @@
         padding-bottom: 1.5em; 
 
     }
+}
+
+
+// --------------- error404 --------------- //
+.error {
+    margin-top: 30%;
+    font-weight: 700;
 }

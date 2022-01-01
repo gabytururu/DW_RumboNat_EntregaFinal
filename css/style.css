@@ -11129,6 +11129,22 @@ textarea.form-control-lg {
   padding: 0;
 }
 
+.navbar {
+  opacity: 1;
+  color: white;
+}
+
+.footerGrad {
+  text-align: center;
+  padding: 8px 0px 10px 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.884);
+}
+.footerGrad__piePagP {
+  padding: 1px;
+  margin-top: 10px;
+}
+
 .titulosSitio {
   text-align: center;
 }
@@ -11145,25 +11161,9 @@ textarea.form-control-lg {
   padding-bottom: 1.5em;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.navbar {
-  opacity: 1;
-  color: white;
-}
-
-.footerGrad {
-  text-align: center;
-  padding: 8px 0px 10px 0px;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.884);
-}
-.footerGrad__piePagP {
-  padding: 1px;
-  margin-top: 10px;
+.error {
+  margin-top: 30%;
+  font-weight: 700;
 }
 
 * {
@@ -11838,7 +11838,7 @@ textarea.form-control-lg {
 }
 
 .card-body {
-  background-color: rgba(155, 205, 247, 0.349);
+  background-color: rgba(133, 192, 252, 0.25);
 }
 
 .titulo {
@@ -11858,11 +11858,6 @@ textarea.form-control-lg {
   background-color: #0066ff;
   scale: 1.1;
   transition: all 1s ease;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
